@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<htmllang="en">
+  <head>
+<link rel="stylesheet" href="css/style.css">
+  </head>
+ <center>
+  <body>
+   <h1 id="title">College Contact Form</h1>
+   <p id ="description">This is a survey where you can tell us more about yourself.
+   </p>
+ </center>
+   <form id="survey-form">
+ <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="mobile number-label" for="mobile number">Mobile Number</label>
+      <input
+        type="mobile number"
+        name="mobile number"
+        id="mobile number"
+        class="form-control"
+        placeholder="Enter your Mobile Number "
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        <p>
+          Age
+        </p>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+        
+      />
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Would you recommend this form to a friend?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        What do you love about college?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Class Times">Class Times</option>
+        <option value="Freedom">Freedom</option>
+        <option value="Friends">Friends</option>
+        <option value="Campus">Campus</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        What would you like to see improved in the college?
+      </p>
+  <label
+        ><input
+          name="prefer"
+          value="Increase Parking"
+          type="checkbox"
+          class="input-checkbox"
+        />Increase Parking</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="Focus On Making Spaces Where Students Can Come Together"
+          type="checkbox"
+          class="input-checkbox"
+        />Focus On Making Spaces Where Students Can Come Together</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Classroom"
+          type="checkbox"
+          class="input-checkbox"
+        />Classroom</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Gym"
+          type="checkbox"
+          class="input-checkbox"
+        />Gym</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Library"
+          type="checkbox"
+          class="input-checkbox"
+        />Library</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Go digital"
+          type="checkbox"
+          class="input-checkbox"
+        />Go digital</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Buy new things/Replace old materials only when necessary"
+          type="checkbox"
+          class="input-checkbox"
+        />Buy new things/Replace old materials only when necessary</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Support green businesses"
+          type="checkbox"
+          class="input-checkbox"
+        />Support green businesses</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Craft workshops"
+          type="checkbox"
+          class="input-checkbox"
+        />Craft workshops</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="forum"
+          type="checkbox"
+          class="input-checkbox"
+        />Forum</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="additional-courses"
+          type="checkbox"
+          class="input-checkbox"
+        />Additional Courses</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+ <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+   </body>
+  </form>
+</div>
+</html>
